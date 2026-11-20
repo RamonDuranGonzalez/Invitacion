@@ -85,6 +85,21 @@ function initMusicPlayer() {
 
   audio.src = WEDDING_CONFIG.music.src;
   audio.volume = WEDDING_CONFIG.music.volume ?? 0.65;
+  const startSec = WEDDING_CONFIG.music.startTime || 0;
+
+  // Si se define un segundo de inicio (ej. segundo 31), posicionar el audio
+  if (startSec > 0) {
+    const applyStartTime = () => {
+      try {
+        if (audio.currentTime < startSec) {
+          audio.currentTime = startSec;
+        }
+      } catch (err) {}
+    };
+    audio.addEventListener("loadedmetadata", applyStartTime, { once: true });
+    audio.addEventListener("canplay", applyStartTime, { once: true });
+  }
+
   if (titleEl) titleEl.textContent = WEDDING_CONFIG.music.title;
   if (artistEl) artistEl.textContent = WEDDING_CONFIG.music.artist;
 
@@ -103,6 +118,11 @@ function initMusicPlayer() {
     },
     playWithFade() {
       const targetVol = WEDDING_CONFIG.music.volume ?? 0.65;
+      if (startSec > 0 && (audio.currentTime === 0 || audio.currentTime < startSec)) {
+        try {
+          audio.currentTime = startSec;
+        } catch (err) {}
+      }
       audio.volume = 0.05;
       const playPromise = audio.play();
       if (playPromise !== undefined) {
@@ -124,6 +144,11 @@ function initMusicPlayer() {
     toggle() {
       if (audio.paused) {
         controller.userPaused = false;
+        if (startSec > 0 && (audio.currentTime === 0 || audio.currentTime < startSec)) {
+          try {
+            audio.currentTime = startSec;
+          } catch (err) {}
+        }
         audio.play().then(() => controller.updateUI(true)).catch(() => {});
       } else {
         controller.userPaused = true;

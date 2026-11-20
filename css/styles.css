@@ -622,39 +622,55 @@ button, a, input, select {
   border-color: var(--accent);
 }
 
-/* Animación de pulso llamativa para invitar al clic en "Ver Invitación" */
+/* Animación de pulso llamativa e irresistible para entrar a la invitación */
+#enter-invitation-btn,
 .enter-invitation-btn {
   position: relative;
-  animation: pulseCta 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #c4b39b 0%, #a8947a 100%) !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.45) !important;
+  box-shadow: 0 8px 22px rgba(107, 90, 69, 0.28);
+  animation: pulseWeddingBtn 1.8s ease-in-out infinite !important;
+  cursor: pointer;
 }
 
-@keyframes pulseCta {
+@keyframes pulseWeddingBtn {
   0% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(189, 174, 150, 0.75), 0 8px 20px rgba(107, 90, 69, 0.22);
+    box-shadow: 0 0 0 0 rgba(189, 174, 150, 0.8), 0 8px 22px rgba(107, 90, 69, 0.28);
   }
   50% {
-    transform: scale(1.045);
-    box-shadow: 0 0 0 14px rgba(189, 174, 150, 0), 0 14px 28px rgba(107, 90, 69, 0.32);
+    transform: scale(1.055);
+    box-shadow: 0 0 0 16px rgba(189, 174, 150, 0), 0 14px 32px rgba(107, 90, 69, 0.42);
   }
   100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(189, 174, 150, 0), 0 8px 20px rgba(107, 90, 69, 0.22);
+    box-shadow: 0 0 0 0 rgba(189, 174, 150, 0), 0 8px 22px rgba(107, 90, 69, 0.28);
   }
 }
 
+#enter-invitation-btn:hover,
+#enter-invitation-btn:focus-visible,
 .enter-invitation-btn:hover,
 .enter-invitation-btn:focus-visible {
-  animation-play-state: paused;
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 14px 30px rgba(107, 90, 69, 0.35);
+  transform: translateY(-2px) scale(1.07) !important;
+  box-shadow: 0 16px 34px rgba(107, 90, 69, 0.48) !important;
 }
 
+#enter-invitation-btn .btn-icon,
 .enter-invitation-btn .btn-icon {
-  animation: bounceDown 1.8s ease-in-out infinite;
+  display: inline-block;
+  animation: bounceDownArrow 1.4s ease-in-out infinite;
 }
 
-@keyframes bounceDown {
+@keyframes bounceDownArrow {
   0%, 100% {
     transform: translateY(0);
   }

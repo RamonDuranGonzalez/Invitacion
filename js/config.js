@@ -22,7 +22,8 @@ const WEDDING_CONFIG = {
   music: {
     title: "Mi Primer Amor",
     artist: "Grupo Pesado",
-    src: "assets/audio/cancion-temporal.wav",
+    src: "assets/audio/Marco.mp3",
+    startTime: 31, // Inicia la reproducción en el segundo 31
     volume: 0.65,
   },
 
