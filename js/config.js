@@ -29,7 +29,7 @@ const WEDDING_CONFIG = {
 
   // Confirmación por WhatsApp (código de país + 10 dígitos sin espacios)
   whatsapp: {
-    phone: "527861079714",
+    phone: "7861078714",
     // Plantilla dinámica: genera el mensaje automático con el nombre y pases del formulario
     buildMessage: (name, guests) => {
       const nombreInvitado = name && name.trim() ? name.trim() : "Invitado(s)";
