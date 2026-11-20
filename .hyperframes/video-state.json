@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "historyId": "5f02850d-b6cd-4c06-95b8-b465476cae80",
+  "currentRevision": "e9ab3c54-2949-408c-a330-450bebc4b639",
+  "pendingChanges": false,
+  "files": {
+    "README.md": {
+      "hash": "4b2c14b222ba934a401dd06d6d29d14f71f1353286acd8f6cf8a65a30e821a3d",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\4b\\4b2c14b222ba934a401dd06d6d29d14f71f1353286acd8f6cf8a65a30e821a3d"
+    },
+    "assets/img/foto-bn-espejo.jpg": {
+      "hash": "03b9d348021648e7dfec950caa3cb77d57778a751199ec27d8eb3a2dab557c8d",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\03\\03b9d348021648e7dfec950caa3cb77d57778a751199ec27d8eb3a2dab557c8d"
+    },
+    "assets/img/foto-bn-sonrisa.jpg": {
+      "hash": "d18a3b678254b1748a3404a23d1d75851c47740f1888c67b6ad62b444b6bf75b",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\d1\\d18a3b678254b1748a3404a23d1d75851c47740f1888c67b6ad62b444b6bf75b"
+    },
+    "assets/img/foto-camioneta-1.jpg": {
+      "hash": "e34f9c4636e111631791aa3061c30219ff0701f019766a8fb68f61953c46d8f7",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\e3\\e34f9c4636e111631791aa3061c30219ff0701f019766a8fb68f61953c46d8f7"
+    },
+    "assets/img/foto-camioneta-2.jpg": {
+      "hash": "ebe7fba2ac8519312b7e8c6ddcad16d184d6bb5ea4a219f87ac18c3ced927b70",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\eb\\ebe7fba2ac8519312b7e8c6ddcad16d184d6bb5ea4a219f87ac18c3ced927b70"
+    },
+    "assets/img/foto-pareja-1.jpg": {
+      "hash": "5e99636c81cf8b00b553cc4b6258a942e95eaa583f88cb25d5289fbdd0bef373",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\5e\\5e99636c81cf8b00b553cc4b6258a942e95eaa583f88cb25d5289fbdd0bef373"
+    },
+    "assets/img/foto-portada.jpg": {
+      "hash": "e621bcf16f7b967f4420354d076c046392f86f07fcf62a037c2b85c7f760281d",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\e6\\e621bcf16f7b967f4420354d076c046392f86f07fcf62a037c2b85c7f760281d"
+    },
+    "assets/img/foto-savethedate.jpg": {
+      "hash": "63fff2bc6ee85b1caa4db8703a5ffe506d67e9877bea59c681a4fea429feb68b",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\63\\63fff2bc6ee85b1caa4db8703a5ffe506d67e9877bea59c681a4fea429feb68b"
+    },
+    "assets/img/foto-sobre.jpg": {
+      "hash": "49fd2925a9ec05169eaeb3e82cec1899564ab4229cc5becdabbebc18a9dcf082",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\49\\49fd2925a9ec05169eaeb3e82cec1899564ab4229cc5becdabbebc18a9dcf082"
+    },
+    "css/styles.css": {
+      "hash": "a6d91796158ec17f13a7dabc45a1370070accb17237dc9ab83953ac5a66528a5",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\a6\\a6d91796158ec17f13a7dabc45a1370070accb17237dc9ab83953ac5a66528a5"
+    },
+    "index.html": {
+      "hash": "ceb699139dc7fbd08c293bf75a74cc63af419843c4dc9e3f34280412b3037ed9",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\ce\\ceb699139dc7fbd08c293bf75a74cc63af419843c4dc9e3f34280412b3037ed9"
+    },
+    "js/config.js": {
+      "hash": "b5ab793efce066896b295d90d51389a12230031f045c02763385fed8e70b4a81",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\b5\\b5ab793efce066896b295d90d51389a12230031f045c02763385fed8e70b4a81"
+    },
+    "js/main.js": {
+      "hash": "48784843f4ea0c4248cb283f944df6873dbe338105153c70f6834472c20877e9",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\48\\48784843f4ea0c4248cb283f944df6873dbe338105153c70f6834472c20877e9"
+    },
+    "assets/audio/Marco.mp3": {
+      "hash": "46e18e4aa84e0a07416c5e7a241b181d1403c125f7e414022d73e211b9ffdffb",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\46\\46e18e4aa84e0a07416c5e7a241b181d1403c125f7e414022d73e211b9ffdffb"
+    },
+    "assets/audio/cancion-temporal.wav": {
+      "hash": "6146766d946847d74ac7d257a9e9c7db91f1b145f038f57c4d172d281e3d3a1c",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\61\\6146766d946847d74ac7d257a9e9c7db91f1b145f038f57c4d172d281e3d3a1c"
+    },
+    "video-invitacion.html": {
+      "hash": "21c0108c5467ec496b95e5261cc9847e07770fe44e1cc42f36b288cd7268274c",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\21\\21c0108c5467ec496b95e5261cc9847e07770fe44e1cc42f36b288cd7268274c"
+    }
+  },
+  "revisions": {
+    "e9ab3c54-2949-408c-a330-450bebc4b639": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795143822858,
+      "endedAt": 1795143822859,
+      "files": {
+        "test-render.html": {
+          "before": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\44\\44b4ba2e2b0f0ab5a309be62a0120c59162c5da72c145ac5e2a0e259f8db483a",
+          "after": null
+        },
+        "video-invitacion.html": {
+          "before": null,
+          "after": "C:\\Users\\User\\.cache\\hyperframes\\history\\5f02850d-b6cd-4c06-95b8-b465476cae80\\blobs\\21\\21c0108c5467ec496b95e5261cc9847e07770fe44e1cc42f36b288cd7268274c"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "803ea8c2-1f30-491e-a870-ed5461210e7b",
+      "completedAt": 1795144193743,
+      "output": "C:\\Users\\User\\Downloads\\invitacion-karol-y-mauricio\\invitacion-boda-karol-y-mauricio.mp4",
+      "status": "completed",
+      "revision": "e9ab3c54-2949-408c-a330-450bebc4b639"
+    },
+    "retainedRevisions": [
+      "e9ab3c54-2949-408c-a330-450bebc4b639"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
