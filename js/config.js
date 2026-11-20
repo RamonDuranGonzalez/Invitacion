@@ -20,8 +20,8 @@ const WEDDING_CONFIG = {
   //    1. Copia tu archivo .mp3 dentro de la carpeta: assets/audio/
   //    2. Cambia `src` a: "assets/audio/mi-primer-amor.mp3"
   music: {
-    title: "Mi Primer Amor",
-    artist: "Grupo Pesado",
+    title: "Dios Bendiga Nuestro Amor",
+    artist: "Marco Antonio Solis",
     src: "assets/audio/Marco.mp3",
     startTime: 31, // Inicia la reproducción en el segundo 31
     volume: 0.65,
